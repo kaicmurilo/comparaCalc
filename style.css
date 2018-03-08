@@ -1,0 +1,70 @@
+* {
+margin : 0;
+padding : 0;
+}
+#container{
+     border: 1px solid gray;
+     width: 40%;
+     margin: auto;
+ }div{
+    
+     font-family: sans-serif;
+     padding: 10px;
+ }
+
+ .azul{
+     background-color: steelblue;
+ }
+
+ .amarelo{
+     background-color: orange;
+ }
+
+ .centro{
+     text-align: center;
+     
+ }
+ 
+ #logo{
+     width: 90%;
+ }
+ button{
+     border: 1px solid gray;
+ }
+
+ #tbcli{
+     width: 50%;
+     margin: auto;
+     border: 2px solid grey;
+ }
+ thead{
+     background-color: grey;
+     font-weight: bold;
+    
+ }
+
+ thead td{
+    padding: 5px;
+    
+ }
+
+
+  td{
+    padding: 5px;
+    
+ }
+
+.table-responsive{
+  width: 100% !important;
+}
+
+.table {
+    border: 2px solid red;
+    width: 100% !important; /*Importante manter o !important rs */
+    margin: auto;
+}
+
+.msn{
+    color: #00529B;
+    text-align: center;
+}

@@ -1,0 +1,45 @@
+<html>
+
+    <head>
+     <link href="style.css" rel="stylesheet"/>
+
+    <script src="compara.js"></script>
+
+    </head>
+    <body>
+
+        <div id="container">
+            <div class="centro"> <img id="logo" src="img/calculadora.jpg"> </div>
+            <div class="centro"> Valor 1: <input value="" type="txt" id="s1" /> </div>
+            <div class="centro"> Valor 2: <input value="" type="txt" id="s2"/>  </div>
+            <div class="centro" > 
+                <button class="azul" onclick="calc.salvar()" >OK</button>  
+            
+                <button class="amarelo" onclick='parent.location="javascript:location.reload()"'>Cancelar</button>
+            </div>
+        
+
+
+        <div class="msn" >  <div id="mensagem"></div>
+
+        </div>
+
+
+        <div  >
+
+           <table class="table" id="tbclientes">
+            <thead>
+                <td> VALOR 1</td>
+                <td> VALOR 2</td>
+                <td> MAIOR </td>
+            </thead>
+            <tbody class="table" id="tbcli">
+
+            </tbody>
+
+           </table>
+
+        </div>
+          </div> 
+    </body>
+</html>
